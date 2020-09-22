@@ -5,5 +5,11 @@
         <RootNamespace>net_core_3._1x_api_template</RootNamespace>
     </PropertyGroup>
 
+    <ItemGroup>
+      <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="3.1.8" />
+      <PackageReference Include="Microsoft.Identity.Web" Version="0.4.0-preview" />
+      <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.1" />
+    </ItemGroup>
+
 
 </Project>
